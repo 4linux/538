@@ -3,6 +3,7 @@
 No curso utilizamos o contêiner com um webserver apache e pudemos acessá-lo através do comando `curl`. Esse contêiner foi baseado em uma imagem chamada `httpd`, vamos fazer algo similar ao que fizemos mas com um contêiner que tenha o webserver nginx.
 
 - Crie um contêiner baseado na imagem `nginx`;
+- Chame o contêiner de `nginx`;
 - Entre no contêiner;
 - Procure o HTML principal e escreva `Containers!` dentro deste arquivo - utilize aspas simples!
 - Saia do contêiner;
